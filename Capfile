@@ -7,6 +7,6 @@ require 'whenever/capistrano' if ENV['WHENEVER']
 
 load 'deploy'
 load 'deploy/settings'
-load 'deploy/server'
+#load 'deploy/server'
 load 'deploy/assets'
 load 'deploy/symlinks'
