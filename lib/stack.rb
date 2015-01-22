@@ -9,13 +9,13 @@ module Stack
         use Rails.env.production? ? FetchMarketDetailsS3 : FetchMarketDetails
           use CacheApkResults
             use Rails.env.production? ? DownloadApkS3 : DownloadApk
-            use DecompileApk
-            use IndexSources
-            use FindTokens
-            use LookForNativeLibraries
-            use LookForObfuscatedCode
-            use FetchDevSignature
-            use FindLibraries
+#            use DecompileApk
+#            use IndexSources
+#            use FindTokens
+#            use LookForNativeLibraries
+#            use LookForObfuscatedCode
+#            use FetchDevSignature
+#            use FindLibraries
             # use Signature
     end
   end
