@@ -21,7 +21,7 @@ namespace :deploy do
   end
 
   task :adjust_permissions do
-    #run "chown -R deploy: #{shared_path}"
+    run "chown -R vagrant: #{shared_path}"
   end
 end
 
