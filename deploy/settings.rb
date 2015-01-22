@@ -1,4 +1,4 @@
-set :repository, 'https://github.com/pw4ever/playdrone.git'
+set :repository, 'https://github.com/nviennot/playdrone'
 set :scm, :git
 set :branch, 'master'
 set :deploy_via, :remote_cache
